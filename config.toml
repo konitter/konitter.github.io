@@ -1,0 +1,18 @@
+baseurl = "http://konitter.github.io"
+title = "konitter.github.io"
+languageCode = "ja-JP"
+MetaDataFormat = "yaml"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+	author = "konitter"
+	facebook = true
+	twitter = true
+	adsense = false
+	analytics = true
+
+[permalinks]
+    post = "/:year/:month/:filename/"

@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+<article class="post">
+    <header>
+        <h1 class="post__title">{{ .Title }}</h1>
+        {{ if eq .Type "post" }}<div class="post__meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time> - by <a href="/about/">{{ .Site.Params.author }}</a></div>{{ end }}
+    </header>
+    <div class="post__body">
+        {{ .Content }}
+    </div>
+</article>
+{{ partial "_social.html" . }}
+{{ if .Site.Params.adsense }}{{ partial "_adsense.html" . }}{{ end }}
+{{ partial "footer.html" . }}

@@ -1,0 +1,29 @@
+// ---------------------------------- //
+//      Variables
+// ---------------------------------- //
+
+//= Typography
+
+$gray:                     lighten(#000, 60%) !default;
+$gray-light:               lighten(#000, 70%) !default;
+$gray-lighter:             lighten(#000, 80%) !default;
+
+$text-color:               #3a4145 !default;
+
+$link-color:               #2077b2 !default;
+$link-hover-color:         darken($link-color, 10%) !default;
+$link-hover-decoration:    none !default;
+$link-border-color:        lighten($link-color, 40%) !default;
+$link-border-hover-color:  lighten($link-color, 10%) !default;
+
+$font-family-base:         'Noto Sans Japanese', 'Open Sans', Meiryo, sans-serif !default;
+$font-family-monospace:    Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+
+$font-size-base:           16px !default;
+$line-height-base:         24px !default;
+
+//= Layout
+
+$container:                710px !default;
+$layout-border-color:      #efefef !default;
+$layout-border-width:      2px !default;

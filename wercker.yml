@@ -1,0 +1,14 @@
+box: wercker/default
+
+build:
+  steps:
+    - arjen/hugo-build:
+        version: 0.13
+        flags: --buildDrafts=true
+
+deploy:
+  steps:
+    - hijonathan/gh-pages@0.2.3:
+        token: $GIT_TOKEN
+        basedir: public
+        branch: master
