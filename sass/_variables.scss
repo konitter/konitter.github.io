@@ -15,8 +15,8 @@ $text-color:               #3a4145 !default;
 $link-color:               #28b1e1 !default;
 $link-hover-color:         darken($link-color, 10%) !default; // #1a92bc
 $link-hover-decoration:    none !default;
-$link-border-color:        lighten($link-color, 40%) !default;
-$link-border-hover-color:  lighten($link-color, 10%) !default;
+$link-border-color:        rgba($link-color, .4) !default;
+$link-border-hover-color:  rgba($link-hover-color, .6) !default;
 
 $font-family-base:         'Noto Sans Japanese', 'Open Sans', Meiryo, sans-serif !default;
 $font-family-monospace:    Menlo, Monaco, Consolas, 'Courier New', monospace !default;
