@@ -13,13 +13,12 @@
     letter-spacing: 1px;
 
     &--outline {
-        color: $color-primary;
-        border-color: $color-primary;
+        border-color: $link-color;
         text-transform: uppercase;
 
         &:hover {
-            border-color: $color-primary;
-            background-color: $color-primary;
+            border-color: $link-color;
+            background-color: $link-color;
             color: #fff;
         }
 
