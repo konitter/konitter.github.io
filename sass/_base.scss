@@ -76,5 +76,11 @@ h3 {
 }
 
 p, dl, ol, ul {
-    @include rhythm-margins(1, 1);
+    @include rhythm-margins(1);
+}
+
+hr {
+    @include rhythm-margins(3);
+    border-width: 0;
+    border-top: 1px solid $line-color;
 }
