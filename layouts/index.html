@@ -16,7 +16,8 @@
 {{ if gt $pag.TotalPages 1 }}
     <nav class="pager" role="navigation">
         {{ if $pag.HasPrev }}<a class="pager__newer" href="{{ $pag.Prev.Url }}">← Newer Posts</a>{{ end }}
+        <span>Page {{ $pag.PageNumber }} of {{ $pag.TotalPages }}</span>
         {{ if $pag.HasNext }}<a class="pager__older" href="{{ $pag.Next.Url }}">Older Posts →</a>{{ end }}
     </nav>
-    {{ end }}
+{{ end }}
 {{ partial "footer.html" . }}
