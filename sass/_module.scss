@@ -33,16 +33,20 @@
 .logo {
     border-bottom: none;
     @include adjust-font-size-to(32px, 2);
+    padding: 1rem 2rem;
+    border: 2px solid #fff;
     font-weight: bold;
-}
+    color: #fff;
 
-.posts {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    @media screen and (max-width: 48rem) {
+        padding: 0;
+        border: none;
+    }
 
-    > li {
-        @include rhythm-margins(3, 0);
+    &:hover {
+        border-color: #fff;
+        background-color: rgba(#fff,.2);
+        color: #fff;
     }
 }
 
