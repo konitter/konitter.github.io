@@ -1,14 +1,19 @@
 {{ partial "header.html" . }}
-    {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
-    <ul class="posts">
-    {{ range $pag.Pages }}
-        <li>
-            <a class="post__title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
+{{ range $pag.Pages }}
+    <article class="post">
+        <header>
+            <h1 class="post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
             <div class="post__meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></div>
-        </li>
-    {{ end }}
-    </ul>
-    {{ if gt $pag.TotalPages 1 }}
+        </header>
+        {{ with .Description }}<div class="post__body">
+            <p>{{ . }}</p>
+        </div>{{ end }}
+        <a href="{{ .RelPermalink }}" class="btn btn--outline">Read Article</a>
+    </article>
+    <hr>
+{{ end }}
+{{ if gt $pag.TotalPages 1 }}
     <nav class="pager" role="navigation">
         {{ if $pag.HasPrev }}<a class="pager__newer" href="{{ $pag.Prev.Url }}">← Newer Posts</a>{{ end }}
         {{ if $pag.HasNext }}<a class="pager__older" href="{{ $pag.Next.Url }}">Older Posts →</a>{{ end }}
