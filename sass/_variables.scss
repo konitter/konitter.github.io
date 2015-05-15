@@ -4,9 +4,10 @@
 
 //= Typography
 
-$gray:                     lighten(#000, 60%) !default;
-$gray-light:               lighten(#000, 70%) !default;
-$gray-lighter:             lighten(#000, 80%) !default;
+$gray:                     lighten(#000, 60%) !default; // #999
+$gray-light:               lighten(#000, 70%) !default; // #b3b3b3
+$gray-lighter:             lighten(#000, 85%) !default; // #d9d9d9
+
 
 $text-color:               #3a4145 !default;
 
