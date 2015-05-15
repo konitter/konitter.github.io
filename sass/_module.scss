@@ -2,6 +2,34 @@
 //      Module
 // ---------------------------------- //
 
+.btn {
+    display: inline-block;
+    padding: 8px 18px;
+    border: 1px solid transparent;
+    @include adjust-font-size-to(13px, 1);
+    font-weight: 700;
+    font-family: $font-family-sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+
+    &--outline {
+        color: $color-primary;
+        border-color: $color-primary;
+        text-transform: uppercase;
+
+        &:hover {
+            border-color: $color-primary;
+            background-color: $color-primary;
+            color: #fff;
+        }
+
+        &:active {
+            -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+        }
+    }
+}
+
 .logo {
     border-bottom: none;
     @include adjust-font-size-to(32px, 2);
