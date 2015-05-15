@@ -52,6 +52,7 @@
 
 .post {
     @include rhythm-margins(3, 2);
+    font-family: $font-family-base;
 
     @at-root {
         #{&}__title {
