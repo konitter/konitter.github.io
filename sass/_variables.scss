@@ -10,8 +10,8 @@ $gray-lighter:             lighten(#000, 85%) !default; // #d9d9d9
 
 $text-color:               #3a4145 !default;
 
-$link-color:               #28b1e1 !default;
-$link-hover-color:         darken($link-color, 10%) !default; // #1a92bc
+$link-color:               #4181c2 !default;
+$link-hover-color:         darken($link-color, 10%) !default; // #33689d
 $link-hover-decoration:    none !default;
 $link-border-color:        rgba($link-color, .4) !default;
 $link-border-hover-color:  rgba($link-hover-color, .6) !default;
