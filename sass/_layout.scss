@@ -27,8 +27,8 @@
 
 .l-footer {
     @include rhythm-margins(3, 0);
-    @include rhythm-padding(3, 3);
-    border-top: $layout-border-width solid $layout-border-color;
+    @include rhythm-padding(3);
+    border-top: $line-width solid $line-color;
     background-color: lighten(#000, 98%);
     text-align: center;
     color: $gray-light;
