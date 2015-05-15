@@ -3,9 +3,18 @@
 // ---------------------------------- //
 
 .l-header {
-    @include rhythm-padding(3, 3);
-    border-bottom: $layout-border-width solid $layout-border-color;
+    @include rhythm-padding(9);
     text-align: center;
+    background: url(/img/bg.jpg) 50% 50% no-repeat;
+    background-size: cover;
+
+    @media screen and (max-width: 64rem) {
+        @include rhythm-padding(6);
+    }
+
+    @media screen and (max-width: 48rem) {
+        @include rhythm-padding(4);
+    }
 }
 
 .l-main {
