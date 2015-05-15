@@ -37,14 +37,14 @@ summary {
 }
 
 a {
-  border-bottom: 1px solid rgba(40, 177, 225, 0.4);
+  border-bottom: 1px solid rgba(65, 129, 194, 0.4);
   text-decoration: none;
-  color: #28b1e1;
+  color: #4181c2;
   transition: all .2s linear;
 }
 a:hover {
-  border-color: rgba(26, 146, 188, 0.6);
-  color: #1a92bc;
+  border-color: rgba(51, 104, 157, 0.6);
+  color: #33689d;
 }
 
 img {
@@ -160,13 +160,12 @@ hr {
   letter-spacing: 1px;
 }
 .btn--outline {
-  color: #28b1e1;
-  border-color: #28b1e1;
+  border-color: #4181c2;
   text-transform: uppercase;
 }
 .btn--outline:hover {
-  border-color: #28b1e1;
-  background-color: #28b1e1;
+  border-color: #4181c2;
+  background-color: #4181c2;
   color: #fff;
 }
 .btn--outline:active {
