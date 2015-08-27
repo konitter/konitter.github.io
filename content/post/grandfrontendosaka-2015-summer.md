@@ -2,7 +2,6 @@
 date: 2015-08-25T17:17:40+09:00
 description: とあるセミナーの参加レポート。中身の感想よりはどちらかというと運営側の視点で。
 notoc: true
-ogimage: null
 title: Grand-Frontend-Osaka 2015 Summer
 ---
 
