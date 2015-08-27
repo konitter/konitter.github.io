@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>新しいブログ - konitter.github.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="運用していたブログがFacebookに嫌われてしまい、どうしようもなく新たにブログを立ち上げたというお話。">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="konitter.github.io">
+    <meta property="og:image" content="http://konitter.github.io/img/ogp.jpg">
+    <meta property="fb:app_id" content="231858050163702">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="konitter.github.io">
+</head>
+<body>
+<header class="l-header" role="banner">
+    <a href="/" class="logo">konitter.github.io</a>
+</header>
+<main class="l-main" role="main">
+<article class="post">
+    <header>
+        <h1 class="post__title">新しいブログ</h1>
+        <div class="post__meta"><time datetime="2015-05-15">May 15, 2015</time> - by <a href="/about/">konitter</a></div>
+    </header>
+    <div class="post__body">
+        <p>元々「<a href="http://re-dzine.net/">REFLECTDESIGN</a>」というブログを運営していたが、今年の3月ころからFacebookのOGPが一切反映されなくなっていた（デバッガーでパースエラーになる）。OGPのソース部分やサーバ・ドメインの設定などそれなりに手を尽くして色々いじってみたものの改善されず、今回別でブログを立ち上げることにした。</p>
+
+<p>このブログは、元のブログ同様にGolang製のジェネレータ「<a href="http://gohugo.io/">Hugo</a>」を使って作られている。それ以外はこれといって目新しいことはしていない。気持ちBEMく設計してみたり、Sassファイルを雑に分割してみたりしただけ。</p>
+
+<p>ああ、あと、実験的ではあるが記事本文のフォントに<a href="https://www.google.com/fonts/earlyaccess">Noto Sans Japanese</a>を使ってみている。最初のうちはアリかと思っていたけれど、見ている内に微妙な気もしていてそのうち外すかもしれない。</p>
+
+<p>他には今回<a href="http://compass-style.org/reference/compass/typography/vertical_rhythm/">CompassのVertical Rhythm</a>を導入してみた。これによって読みやすくなるかどうかというよりも、Vertical Rhythmは前から気になっていたワードだったので試してみたというのが大きい。</p>
+
+<p>まだ調整したい部分もあるけど、ひとまずこんな感じのをベースに運用していこうと思う。</p>
+
+    </div>
+</article>
+<aside class="share">
+    <ul>
+        <li><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div><div id="fb-root"></div><script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3&appId=478481188968551";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script></li>
+        <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="konitter" data-lang="en">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script></li>
+    </ul>
+</aside>
+
+</main>
+<footer class="l-footer" role="contentinfo">
+    <small class="copyright">&copy; 2015 konitter.github.io</small>
+</footer>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-10906036-2','auto');ga('send','pageview');</script>
+</body>
+</html>
+

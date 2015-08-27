@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on konitter.github.io</title>
+    <link>http://konitter.github.io/about/</link>
+    <description>Recent content in Abouts on konitter.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <atom:link href="http://konitter.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://konitter.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://konitter.github.io/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;profile:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Profile&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;name: Haruki Konishi&lt;/li&gt;
+&lt;li&gt;handle: konitter&lt;/li&gt;
+&lt;li&gt;job: Web director&lt;/li&gt;
+&lt;li&gt;house: Osaka&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;contact:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Contact&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://facebook.com/konitter&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/konitter&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/konitter&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

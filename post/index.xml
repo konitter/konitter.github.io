@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on konitter.github.io</title>
+    <link>http://konitter.github.io/post/</link>
+    <description>Recent content in Posts on konitter.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 25 Aug 2015 17:17:40 +0900</lastBuildDate>
+    <atom:link href="http://konitter.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grand-Frontend-Osaka 2015 Summer</title>
+      <link>http://konitter.github.io/2015/08/grandfrontendosaka-2015-summer/</link>
+      <pubDate>Tue, 25 Aug 2015 17:17:40 +0900</pubDate>
+      
+      <guid>http://konitter.github.io/2015/08/grandfrontendosaka-2015-summer/</guid>
+      <description>&lt;p&gt;8月22日(土)にグランフロント大阪で開催された「&lt;a href=&#34;http://kfug.connpass.com/event/16891/&#34;&gt;Grand-Frontend-Osaka 2015 Summer&lt;/a&gt;」に参加してきた。「&lt;a href=&#34;https://github.com/kfug/kfug&#34;&gt;関西フロントエンドUG&lt;/a&gt;」というコミュニティが主催で、登壇者含めて個人的に普段あまり関わりがないような人たちだったということと、関西にどんなフロントエンドエンジニアがいるのか前から興味があったので申し込んだ。&lt;/p&gt;
+
+&lt;p&gt;当日の会場の様子はハッシュタグ「&lt;a href=&#34;https://twitter.com/hashtag/frontkansai&#34;&gt;#frontkansai&lt;/a&gt;」から。各セッションごとのスライドはハッシュタグから拾えるが、以下にまとめておく。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;#1 『&lt;a href=&#34;https://speakerdeck.com/armorik83/angular-2-at-grand-frontend-osaka-2015-summer&#34;&gt;Angular 2&lt;/a&gt;』&lt;/li&gt;
+&lt;li&gt;#2 『&lt;a href=&#34;http://www.slideshare.net/likr/asmjswebassembly&#34;&gt;asm.jsとWebAssemblyって実際なんなの？&lt;/a&gt;』&lt;/li&gt;
+&lt;li&gt;#3 『&lt;a href=&#34;https://speakerdeck.com/jmblog/postcss-tohahe-ka&#34;&gt;PostCSS とは何か&lt;/a&gt;』&lt;/li&gt;
+&lt;li&gt;#4 『&lt;a href=&#34;http://www.slideshare.net/kaitokoga9/gulp-wordpress-grandfrontendosaka-2015-summer&#34;&gt;Gulp WordPress&lt;/a&gt;』&lt;/li&gt;
+&lt;li&gt;#5 『&lt;a href=&#34;http://www.slideshare.net/tk_0225/webcomponentspolymer&#34;&gt;WebComponentsとPolymer&lt;/a&gt;』&lt;/li&gt;
+&lt;li&gt;#6 『&lt;a href=&#34;http://www.slideshare.net/kamiyam/grand-front-end-osaka-2015&#34;&gt;Async Enhancement&lt;/a&gt;』&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;これらセッションの中では特に「PostCSSとは何か」は、PostCSSのことがとてもよくまとまっていてわかりやすかった。プラグインも手軽に作れそうで、やってみようかという気になっている。&lt;/p&gt;
+
+&lt;p&gt;全体を通しては「上級者へのステップアップを目指すフロントエンド中級者を対象とした技術やツール・Tipsの紹介」といった印象を受けた。あえて背伸びをさせることでスキルの向上を促進するようなスタイルのセミナーは全然アリだと思うし、セミナー後の懇親会でも色んな技術を持ったエンジニアと話ができてとても楽しかった。&lt;/p&gt;
+
+&lt;p&gt;一方で、このイベントのコンセプトや対象者といったことが申し込みページに特に明記されていなかったことから、一部のガチ勢を除けば、終始「何を言っているのかさっぱりわからない」という参加者もいたかもしれない。セッションの順番や最低でも1つデモを用意するなど、これだけの参加者を集めるのであれば、もう少し何かしらのフォローがあっても良かったかなと感じた。&lt;/p&gt;
+
+&lt;p&gt;（この辺は運営サイドの判断もあったと思うので、一概にこうすべきというのではないが、まあひとつの感想として）&lt;/p&gt;
+
+&lt;p&gt;あとツッコミばかりになってしまうが、アンケートが無かったのはもったいないと思った。運営側としては、アンケートを通じてハッシュタグに乗らない意見や感想をきちんと吸い上げて分析し、次回以降のイベントに活かすようにしたいところ。&lt;/p&gt;
+
+&lt;p&gt;（アンケートは紙で用意できるとベストだが、難しければGoogleドキュメントでフォームを作るのが一番手軽で、回答結果がスプレッドシートに貯まるので後で確認しやすかったりする）&lt;/p&gt;
+
+&lt;p&gt;とまあ偉そうなことを言ってみたけれど、規模関係なくイベントを主催するって本当に大変です。時間もHPもMPも心もものすごい削られるわけで。今回のイベントはその辺のやり方も含めて個人的にもすごく学びのあったイベントだったし参加してよかったと思った。&lt;/p&gt;
+
+&lt;p&gt;次回は来年の2月頃に300人規模の一大カンファレンスを計画しているそうなので、今からとても楽しみだ。関係者のみなさん、お疲れ様でした。そしてありがとうございました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>一人の経営。会社の経営。</title>
+      <link>http://konitter.github.io/2015/05/resem24/</link>
+      <pubDate>Tue, 19 May 2015 11:11:52 +0900</pubDate>
+      
+      <guid>http://konitter.github.io/2015/05/resem24/</guid>
+      <description>&lt;p&gt;先週の土曜日、&lt;a href=&#34;https://recreators.doorkeeper.jp/events/22130&#34;&gt;第24回リクリセミナー「一人の経営。会社の経営。」&lt;/a&gt;に参加してきた。リクリ自体は昨年の10月以来で、その後CSSオジサンを11月に主催してからはNodeSchool Osakaに2回ほど、今年ももう半分というところで最近は割と引きこもっていたほうだと思う。どうでもいいか。&lt;/p&gt;
+
+&lt;p&gt;で、内容はというとタイトルのとおり「経営」がテーマ。会計などの専門用語的な話はよくわからないが、フリーランスとして長く活躍されてきたこもりさんの生き方、そして会社を成長させるために経営者が考えていること、その一端を見ることができて参加してよかったと思う。&lt;/p&gt;
+
+&lt;p&gt;今のところフリーになるとか起業するといったことは考えていないが、たとえ会社員であってもこもりさんや野田さんが話されていたことで普段から意識したほうがよいことはたくさんあった。&lt;/p&gt;
+
+&lt;p&gt;いつどうなってもいいように制作の業務以外に収入源を作っておくこと。本の執筆などがそう。次に時間単価を上げること。同じ作業をするにしても1週間かかるものを3日でできればそこにベネフィットが生まれる。そして何もしなくても収入が得られる仕組みを作ること。アプリやブログなどで広告収入を得るとか、制作においては作った後の運用もやることでサポート費をもらうとか。&lt;/p&gt;
+
+&lt;p&gt;野田さんは、会社の経営理念を決めるのに大切なことは、「社会の困り事を明確化し、その困り事を解決するにはどうするか、そしてそれが解決したらどんな社会になるのか」を考えることだと。そのフレームワークに則っているかは別にしても、勤める会社の経営理念がなんであり、そこにどんな思いが込められているかを理解することは重要なことだと思う。制作の場面では前述のことばの&amp;rdquo;社会&amp;rdquo;を&amp;rdquo;クライアント&amp;rdquo;に置き換えて考えてもいいはず。&lt;/p&gt;
+
+&lt;p&gt;野田さんのお話からもうひとつ。会社はミッションとビジョンを定めて、そのビジョンのために投資するんだと。それを自分に当てはめたときに、見えてくるものがある。今の自分にはどんなミッションがあるのか、将来どうなりたいのか、そのなりたい将来のためにどんな投資が必要なのか。ちゃんと考えておかないといざというときに動けないし、気づけば日々はあっという間に過ぎてしまう。&lt;/p&gt;
+
+&lt;p&gt;以上、フリーランスでも経営者でもない一会社員による少し違った角度から見た感想でした。関係者のみなさん、ありがとうございました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>新しいブログ</title>
+      <link>http://konitter.github.io/2015/05/new-blog/</link>
+      <pubDate>Fri, 15 May 2015 16:52:06 +0900</pubDate>
+      
+      <guid>http://konitter.github.io/2015/05/new-blog/</guid>
+      <description>&lt;p&gt;元々「&lt;a href=&#34;http://re-dzine.net/&#34;&gt;REFLECTDESIGN&lt;/a&gt;」というブログを運営していたが、今年の3月ころからFacebookのOGPが一切反映されなくなっていた（デバッガーでパースエラーになる）。OGPのソース部分やサーバ・ドメインの設定などそれなりに手を尽くして色々いじってみたものの改善されず、今回別でブログを立ち上げることにした。&lt;/p&gt;
+
+&lt;p&gt;このブログは、元のブログ同様にGolang製のジェネレータ「&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;」を使って作られている。それ以外はこれといって目新しいことはしていない。気持ちBEMく設計してみたり、Sassファイルを雑に分割してみたりしただけ。&lt;/p&gt;
+
+&lt;p&gt;ああ、あと、実験的ではあるが記事本文のフォントに&lt;a href=&#34;https://www.google.com/fonts/earlyaccess&#34;&gt;Noto Sans Japanese&lt;/a&gt;を使ってみている。最初のうちはアリかと思っていたけれど、見ている内に微妙な気もしていてそのうち外すかもしれない。&lt;/p&gt;
+
+&lt;p&gt;他には今回&lt;a href=&#34;http://compass-style.org/reference/compass/typography/vertical_rhythm/&#34;&gt;CompassのVertical Rhythm&lt;/a&gt;を導入してみた。これによって読みやすくなるかどうかというよりも、Vertical Rhythmは前から気になっていたワードだったので試してみたというのが大きい。&lt;/p&gt;
+
+&lt;p&gt;まだ調整したい部分もあるけど、ひとまずこんな感じのをベースに運用していこうと思う。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
